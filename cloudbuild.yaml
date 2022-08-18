@@ -29,6 +29,8 @@ images:
 # You can organize your builds with tags
 tags: ['gcp-cloud-build-data_processing_build']
 
+timeout: 1500s
+
 # You can configure more options than the ones listed here. Visit
 # https://cloud.google.com/cloud-build/docs/build-config to see the full list of
 # available options.
