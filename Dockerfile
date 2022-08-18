@@ -1,4 +1,4 @@
-FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-9:latest
+FROM gcr.io/deeplearning-platform-release/base-cpu
 
 ENV CONDA_HOME=/opt/conda
 ENV PYTHON=${CONDA_HOME}/bin/python
