@@ -1,7 +1,4 @@
-FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-7:latest
-
-RUN apt-get update --yes
-RUN apt-get install -y python3-pil
+FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-9:latest
 
 ENV CONDA_HOME=/opt/conda
 ENV PYTHON=${CONDA_HOME}/bin/python
