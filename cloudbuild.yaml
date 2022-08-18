@@ -24,7 +24,7 @@ steps:
 # image below and it will automatically be uploaded to Google Cloud Container
 # Registry.
 images:
-- 'gcr.io/$PROJECT_ID/predictive-wildfire-tf-segmodels'
+- 'gcr.io/$PROJECT_ID/data_processing'
 
 # You can organize your builds with tags
 tags: ['gcp-cloud-build-data_processing_build']
