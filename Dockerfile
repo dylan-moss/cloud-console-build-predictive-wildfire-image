@@ -21,7 +21,7 @@ RUN /opt/conda/bin/pip install --upgrade pandas-gbq
 RUN /opt/conda/bin/pip install --upgrade install pandarallel
 
 RUN /opt/conda/bin/conda install -c conda-forge gdal
-RUN /opt/conda/bin/conda install -c conda-forge rasterio
+#RUN /opt/conda/bin/conda install -c conda-forge rasterio
 RUN /opt/conda/bin/conda install -c conda-forge rioxarray
 RUN /opt/conda/bin/conda install -c conda-forge geopandas
 
